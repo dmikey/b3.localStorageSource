@@ -41,6 +41,22 @@ Set a model or collection to use the local as the default store (or specify the 
 
 That's it! Now models will save or fetch from localStorage, and collections will fetch!
 
+    //have a model fetch state localStorage using its current euid
+    model.fetch();
+
+    //provide a euid to populate from localStorage
+    model.fetch({euid:"98b03d-b93d-45ef45af-41723f5fe63"});
+
+    //have a model commit to local storage
+    model.commit();
+
+    //get a collection by attached enyo.Model, or all generic euids
+    collection.fetch({
+    success:function(){
+            collection.destroyAll();
+        }
+    });
+
 Notes
 =====================
 
