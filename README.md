@@ -14,7 +14,7 @@ Include the script with your EnyoJ S application through package.js , or insert 
 
 Insert with HTML
 
-    <script src="localStorageSource.js"></script>
+    <script src="b3.localStorageSource.min.js"></script>
 
 Insert with package.js
 
