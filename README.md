@@ -10,7 +10,7 @@ An EnyoJS Local Storage Source component, to give Models, and Collections the ab
 How to Use
 =====================
 
-Include the script with your EnyoJ S application through package.js , or insert into the HTML page with a script tag.
+Include the script with your EnyoJS application through package.js , or insert into the HTML page with a script tag.
 
 Insert with HTML
 
