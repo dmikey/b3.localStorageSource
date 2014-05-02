@@ -1,0 +1,28 @@
+{
+    "name": "b3.LocalStorageSource",
+    "version": "0.0.1",
+    "description": "enyo.Source provider for javascript localStorage object",
+    "main": "package.js",
+    "scripts": {
+        "test": "grunt jasmine"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/toxigenicpoem/b3.LocalStorageSource.git"
+    },
+    "keywords": [
+    "enyo",
+    "enyojs",
+    "localstorage",
+    "storage"
+  ],
+    "author": "Derek M. Anderson",
+    "license": "MIT",
+    "readmeFilename": "README.md",
+    "gitHead": "9506395d9187e9f9e93ba77cec674b9e68808c80",
+    "devDependencies": {
+        "grunt": "~0.4.4",
+        "grunt-contrib-jasmine": "~0.6.4",
+        "grunt-contrib-uglify": "~0.4.0"
+    }
+}
